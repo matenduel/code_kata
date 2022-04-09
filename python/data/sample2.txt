@@ -1,0 +1,6 @@
+Title: [긴급] 업무협조 요청
+to: co-worker1@company.co.kr, co-worker2@company.co.kr, commander@daum.net
+from: Boss@company.co.kr
+body:
+    dear Co-worker. Make Some Noise!!!
+    And reply this email to recieve@company.co.kr with your position name.

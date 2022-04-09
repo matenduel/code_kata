@@ -1,0 +1,4 @@
+pydantic==1.9.0
+pymongo==4.1.0
+requests==2.27.1
+mariadb==1.0.10

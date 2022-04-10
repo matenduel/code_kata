@@ -1,0 +1,66 @@
+goods_no,goods_nm,brand,sale_price,condition,shop_id
+183000,Gucci T-Shirts,Gucci,224000,New,142
+183001,Thom Browne Pants,Thom Browne,413000,New,37
+183002,Ferragamo Shirts,Ferragamo,330000,New,112
+183003,Gucci Necklace,Gucci,641000,New,181
+183004,Thom Browne Pants,Thom Browne,775000,New,65
+183005,Thom Browne Necklace,Thom Browne,894000,New,126
+183006,Prada Necklace,Prada,997000,New,46
+183007,Bottega Veneta Shoes,Bottega Veneta,943000,Used,8
+183008,Ferragamo Bag,Ferragamo,181000,New,109
+183009,Bottega Veneta T-Shirts,Bottega Veneta,572000,Used,118
+183010,Prada Necklace,Prada,979000,New,163
+183011,Gucci Coat,Gucci,116000,New,23
+183012,Bottega Veneta Shirts,Bottega Veneta,674000,New,154
+183013,Bottega Veneta Coat,Bottega Veneta,486000,New,120
+183014,Ferragamo Coat,Ferragamo,252000,New,124
+183015,Ferragamo Pants,Ferragamo,776000,New,52
+183016,Bottega Veneta Shirts,Bottega Veneta,569000,New,12
+183017,Prada Coat,Prada,754000,New,62
+183018,Thom Browne Shirts,Thom Browne,757000,New,85
+183019,Gucci Pants,Gucci,864000,Used,132
+183020,Bottega Veneta Coat,Bottega Veneta,147000,Used,62
+183021,Ferragamo Shoes,Ferragamo,341000,Used,51
+183022,Bottega Veneta Coat,Bottega Veneta,507000,New,148
+183023,Thom Browne Shirts,Thom Browne,911000,New,190
+183024,Gucci T-Shirts,Gucci,478000,New,104
+183025,Bottega Veneta Pants,Bottega Veneta,854000,New,86
+183026,Bottega Veneta T-Shirts,Bottega Veneta,750000,Used,12
+183027,Thom Browne Necklace,Thom Browne,835000,New,5
+183028,Gucci Accessory,Gucci,127000,New,104
+183029,Thom Browne Accessory,Thom Browne,287000,New,141
+183030,Thom Browne Necklace,Thom Browne,810000,New,19
+183031,Ferragamo Shirts,Ferragamo,449000,Used,138
+183032,Thom Browne Bag,Thom Browne,432000,New,172
+183033,Gucci T-Shirts,Gucci,524000,New,93
+183034,Thom Browne Shirts,Thom Browne,655000,New,52
+183035,Ferragamo Pants,Ferragamo,988000,Used,17
+183036,Thom Browne Shirts,Thom Browne,127000,Used,73
+183037,Ferragamo T-Shirts,Ferragamo,749000,New,14
+183038,Ferragamo Pants,Ferragamo,994000,New,24
+183039,Ferragamo Necklace,Ferragamo,759000,New,136
+183040,Thom Browne Shirts,Thom Browne,842000,Used,192
+183041,Gucci Accessory,Gucci,589000,New,100
+183042,Thom Browne T-Shirts,Thom Browne,844000,New,146
+183043,Ferragamo Accessory,Ferragamo,175000,New,133
+183044,Ferragamo Coat,Ferragamo,475000,New,181
+183045,Gucci Shirts,Gucci,766000,New,177
+183046,Ferragamo Shoes,Ferragamo,807000,New,172
+183047,Gucci Pants,Gucci,500000,New,137
+183048,Prada Shoes,Prada,148000,Used,114
+183049,Ferragamo Accessory,Ferragamo,439000,New,181
+183050,Bottega Veneta Shoes,Bottega Veneta,557000,Used,29
+183051,Bottega Veneta Pants,Bottega Veneta,350000,New,6
+183052,Thom Browne T-Shirts,Thom Browne,349000,New,47
+183053,Thom Browne Shirts,Thom Browne,607000,Used,111
+183054,Prada T-Shirts,Prada,666000,New,51
+183055,Bottega Veneta Bag,Bottega Veneta,279000,Used,20
+183056,Gucci Shoes,Gucci,477000,New,39
+183057,Bottega Veneta Shoes,Bottega Veneta,377000,New,73
+183058,Prada Coat,Prada,794000,Used,163
+183059,Prada Shirts,Prada,748000,New,65
+183060,Bottega Veneta Necklace,Bottega Veneta,905000,Used,110
+183061,Prada Shirts,Prada,516000,New,30
+183062,Bottega Veneta Bag,Bottega Veneta,538000,New,162
+183063,Thom Browne Accessory,Thom Browne,647000,New,123
+183064,Prada Pants,Prada,931000,New,147

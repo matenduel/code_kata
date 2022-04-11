@@ -19,7 +19,7 @@ def extract_email_from_txt() -> set[str]:
     file_path_list = glob("../data/*.txt")
 
     # Step 2: Make Regex expression
-    email_extractor = re.compile("(?P<email>[a-zA-z0-9-]+@[a-zA-z0-9-]+.(co.kr|com|kr))")
+    email_extractor = re.compile("(?P<email>[a-zA-Z0-9-]+@[a-zA-Z0-9-]+.(co.kr|com|kr))")
 
     # Step 3: Read the file with for loop
     result = set([])

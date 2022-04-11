@@ -4,9 +4,11 @@
 
 ## Python Library
 1. ConfigParser
-2. Typing
-3. Pydantic
+2. Pymongo
+3. Mariadb
+4. Pydantic
+5. Pandas
 
 ----
 
-Code Kata
+Code Kata Made by Mark

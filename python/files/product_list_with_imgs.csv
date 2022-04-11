@@ -1,0 +1,66 @@
+goods_no,goods_nm,brand,sale_price,condition,shop_id,img
+183000,Gucci T-Shirts,Gucci,224000,New,142,diff/gucci/183000-1.jpeg|thing/gucci/183000-2.jpg
+183001,Thom Browne Pants,Thom Browne,413000,New,37,some/thom_browne/183001-1.png|diff/thom_browne/183001-2.png
+183002,Ferragamo Shirts,Ferragamo,330000,New,112,diff/ferragamo/183002-1.jpg|diff/ferragamo/183002-2.jpg
+183003,Gucci Necklace,Gucci,641000,New,181,some/gucci/183003-1.jpeg|thing/gucci/183003-2.jpeg
+183004,Thom Browne Pants,Thom Browne,775000,New,65,diff/thom_browne/183004-1.jpg|thing/thom_browne/183004-2.jpg
+183005,Thom Browne Necklace,Thom Browne,894000,New,126,diff/thom_browne/183005-1.jpg|thing/thom_browne/183005-2.jpeg
+183006,Prada Necklace,Prada,997000,New,46,diff/prada/183006-1.jpeg|thing/prada/183006-2.jpg
+183007,Bottega Veneta Shoes,Bottega Veneta,943000,Used,8,diff/bottega_veneta/183007-1.png|thing/bottega_veneta/183007-2.jpg
+183008,Ferragamo Bag,Ferragamo,181000,New,109,some/ferragamo/183008-1.png|diff/ferragamo/183008-2.jpg
+183009,Bottega Veneta T-Shirts,Bottega Veneta,572000,Used,118,some/bottega_veneta/183009-1.png|some/bottega_veneta/183009-2.jpeg
+183010,Prada Necklace,Prada,979000,New,163,diff/prada/183010-1.jpeg|diff/prada/183010-2.jpeg
+183011,Gucci Coat,Gucci,116000,New,23,thing/gucci/183011-1.png|thing/gucci/183011-2.jpg
+183012,Bottega Veneta Shirts,Bottega Veneta,674000,New,154,thing/bottega_veneta/183012-1.jpeg|diff/bottega_veneta/183012-2.png
+183013,Bottega Veneta Coat,Bottega Veneta,486000,New,120,some/bottega_veneta/183013-1.jpg|diff/bottega_veneta/183013-2.png
+183014,Ferragamo Coat,Ferragamo,252000,New,124,diff/ferragamo/183014-1.png|thing/ferragamo/183014-2.jpg
+183015,Ferragamo Pants,Ferragamo,776000,New,52,some/ferragamo/183015-1.png|some/ferragamo/183015-2.jpeg
+183016,Bottega Veneta Shirts,Bottega Veneta,569000,New,12,some/bottega_veneta/183016-1.png|thing/bottega_veneta/183016-2.jpeg
+183017,Prada Coat,Prada,754000,New,62,some/prada/183017-1.jpeg|some/prada/183017-2.jpeg
+183018,Thom Browne Shirts,Thom Browne,757000,New,85,some/thom_browne/183018-1.jpeg|some/thom_browne/183018-2.jpg
+183019,Gucci Pants,Gucci,864000,Used,132,thing/gucci/183019-1.png|diff/gucci/183019-2.png
+183020,Bottega Veneta Coat,Bottega Veneta,147000,Used,62,thing/bottega_veneta/183020-1.jpeg|some/bottega_veneta/183020-2.jpg
+183021,Ferragamo Shoes,Ferragamo,341000,Used,51,diff/ferragamo/183021-1.jpg|diff/ferragamo/183021-2.jpg
+183022,Bottega Veneta Coat,Bottega Veneta,507000,New,148,thing/bottega_veneta/183022-1.jpeg|some/bottega_veneta/183022-2.jpg
+183023,Thom Browne Shirts,Thom Browne,911000,New,190,some/thom_browne/183023-1.png|thing/thom_browne/183023-2.jpg
+183024,Gucci T-Shirts,Gucci,478000,New,104,diff/gucci/183024-1.jpeg|thing/gucci/183024-2.jpg
+183025,Bottega Veneta Pants,Bottega Veneta,854000,New,86,some/bottega_veneta/183025-1.jpeg|diff/bottega_veneta/183025-2.jpeg
+183026,Bottega Veneta T-Shirts,Bottega Veneta,750000,Used,12,thing/bottega_veneta/183026-1.png|some/bottega_veneta/183026-2.jpg
+183027,Thom Browne Necklace,Thom Browne,835000,New,5,thing/thom_browne/183027-1.jpeg|thing/thom_browne/183027-2.jpeg
+183028,Gucci Accessory,Gucci,127000,New,104,some/gucci/183028-1.jpg|thing/gucci/183028-2.png
+183029,Thom Browne Accessory,Thom Browne,287000,New,141,some/thom_browne/183029-1.jpg|diff/thom_browne/183029-2.png
+183030,Thom Browne Necklace,Thom Browne,810000,New,19,some/thom_browne/183030-1.jpeg|some/thom_browne/183030-2.png
+183031,Ferragamo Shirts,Ferragamo,449000,Used,138,thing/ferragamo/183031-1.png|thing/ferragamo/183031-2.png
+183032,Thom Browne Bag,Thom Browne,432000,New,172,diff/thom_browne/183032-1.jpg|diff/thom_browne/183032-2.jpeg
+183033,Gucci T-Shirts,Gucci,524000,New,93,thing/gucci/183033-1.jpeg|some/gucci/183033-2.jpeg
+183034,Thom Browne Shirts,Thom Browne,655000,New,52,thing/thom_browne/183034-1.png|some/thom_browne/183034-2.jpeg
+183035,Ferragamo Pants,Ferragamo,988000,Used,17,thing/ferragamo/183035-1.jpeg|some/ferragamo/183035-2.png
+183036,Thom Browne Shirts,Thom Browne,127000,Used,73,thing/thom_browne/183036-1.jpg|thing/thom_browne/183036-2.jpg
+183037,Ferragamo T-Shirts,Ferragamo,749000,New,14,some/ferragamo/183037-1.jpeg|thing/ferragamo/183037-2.jpeg
+183038,Ferragamo Pants,Ferragamo,994000,New,24,thing/ferragamo/183038-1.jpeg|diff/ferragamo/183038-2.png
+183039,Ferragamo Necklace,Ferragamo,759000,New,136,thing/ferragamo/183039-1.png|diff/ferragamo/183039-2.png
+183040,Thom Browne Shirts,Thom Browne,842000,Used,192,thing/thom_browne/183040-1.jpg|diff/thom_browne/183040-2.jpeg
+183041,Gucci Accessory,Gucci,589000,New,100,diff/gucci/183041-1.jpeg|thing/gucci/183041-2.jpg
+183042,Thom Browne T-Shirts,Thom Browne,844000,New,146,thing/thom_browne/183042-1.jpg|thing/thom_browne/183042-2.png
+183043,Ferragamo Accessory,Ferragamo,175000,New,133,thing/ferragamo/183043-1.jpeg|thing/ferragamo/183043-2.png
+183044,Ferragamo Coat,Ferragamo,475000,New,181,thing/ferragamo/183044-1.jpeg|diff/ferragamo/183044-2.png
+183045,Gucci Shirts,Gucci,766000,New,177,some/gucci/183045-1.jpg|diff/gucci/183045-2.jpg
+183046,Ferragamo Shoes,Ferragamo,807000,New,172,thing/ferragamo/183046-1.jpeg|diff/ferragamo/183046-2.jpg
+183047,Gucci Pants,Gucci,500000,New,137,some/gucci/183047-1.png|thing/gucci/183047-2.png
+183048,Prada Shoes,Prada,148000,Used,114,diff/prada/183048-1.jpeg|thing/prada/183048-2.png
+183049,Ferragamo Accessory,Ferragamo,439000,New,181,some/ferragamo/183049-1.jpg|some/ferragamo/183049-2.jpeg
+183050,Bottega Veneta Shoes,Bottega Veneta,557000,Used,29,diff/bottega_veneta/183050-1.png|some/bottega_veneta/183050-2.png
+183051,Bottega Veneta Pants,Bottega Veneta,350000,New,6,some/bottega_veneta/183051-1.jpg|some/bottega_veneta/183051-2.jpeg
+183052,Thom Browne T-Shirts,Thom Browne,349000,New,47,thing/thom_browne/183052-1.jpeg|diff/thom_browne/183052-2.png
+183053,Thom Browne Shirts,Thom Browne,607000,Used,111,thing/thom_browne/183053-1.jpeg|thing/thom_browne/183053-2.png
+183054,Prada T-Shirts,Prada,666000,New,51,thing/prada/183054-1.jpeg|diff/prada/183054-2.jpg
+183055,Bottega Veneta Bag,Bottega Veneta,279000,Used,20,some/bottega_veneta/183055-1.png|thing/bottega_veneta/183055-2.jpg
+183056,Gucci Shoes,Gucci,477000,New,39,diff/gucci/183056-1.jpg|some/gucci/183056-2.jpeg
+183057,Bottega Veneta Shoes,Bottega Veneta,377000,New,73,diff/bottega_veneta/183057-1.jpeg|thing/bottega_veneta/183057-2.jpeg
+183058,Prada Coat,Prada,794000,Used,163,some/prada/183058-1.png|some/prada/183058-2.png
+183059,Prada Shirts,Prada,748000,New,65,some/prada/183059-1.png|some/prada/183059-2.jpg
+183060,Bottega Veneta Necklace,Bottega Veneta,905000,Used,110,thing/bottega_veneta/183060-1.jpeg|diff/bottega_veneta/183060-2.jpeg
+183061,Prada Shirts,Prada,516000,New,30,diff/prada/183061-1.jpeg|diff/prada/183061-2.png
+183062,Bottega Veneta Bag,Bottega Veneta,538000,New,162,some/bottega_veneta/183062-1.jpeg|diff/bottega_veneta/183062-2.jpg
+183063,Thom Browne Accessory,Thom Browne,647000,New,123,some/thom_browne/183063-1.jpeg|thing/thom_browne/183063-2.jpeg
+183064,Prada Pants,Prada,931000,New,147,some/prada/183064-1.jpg|thing/prada/183064-2.jpeg

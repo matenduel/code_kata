@@ -5,3 +5,4 @@ mariadb==1.0.10
 pandas==1.4.2
 pyarrow==7.0.0
 jupyter==1.0.0
+memory-profiler==0.60.0

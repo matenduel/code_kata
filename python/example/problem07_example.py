@@ -12,8 +12,10 @@ Step
 4. Count the image format
 """
 import pandas as pd
+from memory_profiler import profile
 
 
+@profile
 def main() -> dict:
     result = {}
     file_path = "../files/product_list_with_imgs.parquet"

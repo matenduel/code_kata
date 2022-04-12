@@ -7,6 +7,7 @@ Step
 2. Connect to MongoDB
 3. Execute the query
     3.1 get revenue of each store
+    3.2 close the connection
 4. Save the return data as CSV file with column name
     4.1 save the file in "result" directory
     4.2 file name format = "%Y-%m-%d result.csv"
@@ -15,12 +16,14 @@ import csv
 from configparser import ConfigParser
 from datetime import datetime
 
+from memory_profiler import profile
 from pymongo import MongoClient
 
 
+@profile
 def main() -> None:
     # Step 1: Get Credential from mariadb.ini file by using ConfigParser
-    ini_file = "files/mariadb.ini"
+    ini_file = "files/mongodb.ini"
 
     config = ConfigParser()
     config.read(ini_file)

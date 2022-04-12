@@ -1,31 +1,36 @@
 """
-Problem05: Extract the all email address from txt file in certain directory
+Problem02: Extract the data from MongoDB and save the data as CSV file.
 
 Step
-1. Get file path in data directory
-    1.1 All files are located in data directory
-2. Make Regex expression
-    2.1 ID part of email are consist of the alphabet(upper, lower) and numeric and '-'
-3. Read the file with for loop
-4. Extract the email from the txt file
-5. Return the email without duplicate
+1. Get Credential from mariadb.ini file by using ConfigParser
+    1.1 mongodb.ini located in files directory
+2. Connect to MongoDB
+3. Execute the query
+    3.1 get revenue of each store
+    3.2 close the connection
+4. Save the return data as CSV file with column name
+    4.1 save the file in "result" directory
+    4.2 file name format = "%Y-%m-%d result.csv"
 """
-import re
-from glob import glob
+import csv
+from configparser import ConfigParser
+from datetime import datetime
+
+from memory_profiler import profile
+from pymongo import MongoClient
 
 
-def extract_email_from_txt() -> set[str]:
-    # Step 1: Get file path in data directory
+@profile
+def main() -> None:
+    # Step 1: Get Credential from mariadb.ini file by using ConfigParser
+    ini_file = "files/mongodb.ini"
 
-    # Step 2: Make Regex expression
+    # Step 2: Connect to MongoDB
 
-    # Step 3: Read the file with for loop
+    # Step 3: Execute the query
 
-    # Step 4: Extract the email from the txt file
-
-    # Step 5: Return the email without duplicate
-    return set([])
+    # Step 4: Save the return data as CSV file with column name
 
 
 if __name__ == "__main__":
-    print(extract_email_from_txt())
+    main()

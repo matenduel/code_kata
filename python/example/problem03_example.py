@@ -9,6 +9,7 @@ Step
     3.1 Get goods_no and ObjectId_list of duplicate data from terminated
     3.2 To reduce the database load, set the goods_no range
     3.3 Repeat the query to check all goods_no
+    3.4 close the connection
 4. Transform the data
     4.1 transform the element ObjectId_list to str
     4.2 join the list with bar("|")
@@ -17,14 +18,16 @@ Step
     5.2 If not exists, create file with name format = "%Y-%m-%d result.csv"
     5.3 If exists, append the data
 """
-import os
 import csv
+import os
 from configparser import ConfigParser
 from datetime import datetime
 
+from memory_profiler import profile
 from pymongo import MongoClient
 
 
+@profile
 def main() -> None:
     # Step 1: Get Credential from mongodb.ini file by using ConfigParser
     ini_file = "files/mongodb.ini"

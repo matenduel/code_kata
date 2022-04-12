@@ -12,6 +12,7 @@ Step
 Ref. https://pydantic-docs.helpmanual.io/
 """
 
+from memory_profiler import profile
 from pydantic import BaseModel
 
 
@@ -22,6 +23,7 @@ class ShopInfo(BaseModel):
     shop_name: str = "default"
 
 
+@profile
 def get_total_revenue() -> int:
     datas = [
         {"shop_id": 1, "revenue": "20000", "shop_name": "Tony", "address": "dongdaemun"},

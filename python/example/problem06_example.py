@@ -14,11 +14,14 @@ Step
     5.2 Do not create the directory if there is no order on that day
     5.3 Do not save the duplicated colum
 """
-import pandas as pd
 from datetime import datetime, timedelta
 from pathlib import Path
 
+import pandas as pd
+from memory_profiler import profile
 
+
+@profile
 def main() -> None:
     # file_path
     goods_list_file = "../files/goods_list.csv"

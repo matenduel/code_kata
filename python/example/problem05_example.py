@@ -13,7 +13,10 @@ Step
 import re
 from glob import glob
 
+from memory_profiler import profile
 
+
+@profile
 def extract_email_from_txt() -> set[str]:
     # Step 1: Get file path in data directory
     file_path_list = glob("../data/*.txt")

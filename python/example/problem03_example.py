@@ -75,6 +75,7 @@ def main() -> None:
         ]
 
         dup_list = hub.terminated.aggregate(pipeline)
+        dup_list = list(dup_list)
 
         # Step 4: Transform the data
         for dup in dup_list:
@@ -83,22 +84,26 @@ def main() -> None:
             # change the Type of ObjectId_list element
             dup["ObjectId_list"] = "|".join(map(str, dup["ObjectId_list"]))
 
-        # Step 5: Save the return data as CSV file with column name
-        file_name = f"{datetime.now().strftime('%Y-%m-%d')}-mongo-result.csv"
-        fieldnames = dup_list[0].keys()
-        mode = "w"
-        if os.path.exists(f"result/{file_name}"):
-            mode = "a"
+        # Save when dup data exists
+        if len(dup_list):
+            # Step 5: Save the return data as CSV file with column name
+            file_name = f"{datetime.now().strftime('%Y-%m-%d')}-mongo-result.csv"
+            fieldnames = dup_list[0].keys()
+            mode = "w"
+            if os.path.exists(f"result/{file_name}"):
+                mode = "a"
 
-        # short version
-        # mode = "w" if not os.path.exists(f"result/{file_name}") else "a"
+            # short version
+            # mode = "w" if not os.path.exists(f"result/{file_name}") else "a"
 
-        with open(f"result/{file_name}", mode=mode, newline="", encoding="utf-8-sig") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            # Write header if mode is "w"
-            if mode == "w":
-                writer.writeheader()
-            writer.writerows(dup_list)
+            with open(f"result/{file_name}", mode=mode, newline="", encoding="utf-8-sig") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                # Write header if mode is "w"
+                if mode == "w":
+                    writer.writeheader()
+                writer.writerows(dup_list)
+        else:
+            print(f"No dup data in range {goods_no_start} ~ {goods_no_start + search_size}")
 
         # Increase the goods_no_start
         goods_no_start += search_size

@@ -67,19 +67,23 @@ def main() -> None:
             }
         }
     ]
-    result = balis.deliver_board.aggregate(pipeline)
+    result = balis.deliver_boards.aggregate(pipeline)
+    result = list(result)
 
     client.close()
 
-    # Step 4: Save the return data as CSV file with column name
-    file_name = f"{datetime.now().strftime('%Y-%m-%d')}-mongo-result.csv"
-    fieldnames = result[0].keys()
+    if len(result):
+        # Step 4: Save the return data as CSV file with column name
+        file_name = f"{datetime.now().strftime('%Y-%m-%d')}-mongo-result.csv"
+        fieldnames = result[0].keys()
 
-    with open(f"result/{file_name}", "w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        with open(f"result/{file_name}", "w", newline="", encoding="utf-8-sig") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
 
-        writer.writeheader()
-        writer.writerows(result)
+            writer.writeheader()
+            writer.writerows(result)
+    else:
+        print("No data found.")
 
 
 if __name__ == "__main__":

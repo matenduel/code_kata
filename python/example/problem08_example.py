@@ -33,16 +33,19 @@ def main() -> None:
 
     # Step 1: Print the date(format: %Y-%m-%d) of utc_datetime and kst_datetime
     # Aware
-    print("utc_datetime: ", )
-    print("kst_datetime: ", )
+    print("utc_datetime: ", utc_datetime.strftime("%Y-%m-%d"))
+    print("kst_datetime: ", kst_datetime.strftime("%Y-%m-%d"))
     # Naive
-    print("datetime_without_tz: ", )
+    print("datetime_without_tz: ", datetime_without_tz.strftime("%Y-%m-%d"))
 
     # Step 2: Calculate the time difference between utc_datetime and kst_datetime
-    print("time difference: ", )
+    print("time difference: ", utc_datetime - kst_datetime)
 
     # Step 3: Compare the utc_datetime and kst_datetime.
     # Use >, ==, <
+    print(utc_datetime > kst_datetime)
+    print(utc_datetime < kst_datetime)
+    print(utc_datetime == kst_datetime)
 
     # Step 4: Compare the utc_datetime and kst_datetime.
     # Error occur!!!
@@ -54,10 +57,13 @@ def main() -> None:
         print(e)
 
     # Step 5: Convert Naive_datetime(datetime_without_tz) to Aware_datetime
-    print("before: ", )
-    print("after: ", )
+    datetime_with_kst = datetime_without_tz.replace(tzinfo=KST)
+    print("before: ", datetime_without_tz)
+    print("after: ", datetime_with_kst)
 
     # Step 6: Get KST Date from utc_datetime
+    print("KST date from utc_datetime")
+    print(utc_datetime.astimezone(KST).strftime("%Y-%m-%d"))
 
 
 if __name__ == "__main__":

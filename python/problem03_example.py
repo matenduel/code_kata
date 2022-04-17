@@ -30,7 +30,7 @@ from pymongo import MongoClient
 @profile
 def main() -> None:
     # Step 1: Get Credential from mongodb.ini file by using ConfigParser
-    ini_file = "files/mongodb.ini"
+    ini_file = "./files/mongodb.ini"
 
     config = ConfigParser()
     config.read(ini_file)

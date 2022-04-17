@@ -18,7 +18,7 @@ from memory_profiler import profile
 @profile
 def main() -> dict:
     result = {}
-    file_path = "../files/product_list_with_imgs.parquet"
+    file_path = "./files/product_list_with_imgs.parquet"
 
     # Step 1: Read parquet data
     product_datas = pd.read_parquet(file_path)

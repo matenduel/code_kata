@@ -22,7 +22,7 @@ from memory_profiler import profile
 @profile
 def main() -> None:
     # Step 1: Get Credential from mariadb.ini file by using ConfigParser
-    ini_file = "files/mariadb.ini"
+    ini_file = "./files/mariadb.ini"
 
     config = ConfigParser()
     config.read(ini_file)

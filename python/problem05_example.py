@@ -19,7 +19,7 @@ from memory_profiler import profile
 @profile
 def extract_email_from_txt() -> set[str]:
     # Step 1: Get file path in data directory
-    file_path_list = glob("../data/*.txt")
+    file_path_list = glob("./data/*.txt")
 
     # Step 2: Make Regex expression
     email_extractor = re.compile("(?P<email>[a-zA-Z0-9-]+@[a-zA-Z0-9-]+.(co.kr|com|kr))")

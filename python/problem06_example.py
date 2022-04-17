@@ -24,8 +24,8 @@ from memory_profiler import profile
 @profile
 def main() -> None:
     # file_path
-    goods_list_file = "../files/goods_list.csv"
-    order_list_file = "../files/order_list.csv"
+    goods_list_file = "./files/goods_list.csv"
+    order_list_file = "./files/order_list.csv"
 
     # Step 1: Get goods_list and order_list from csv file by using pandas
     goods_list = pd.read_csv(goods_list_file)

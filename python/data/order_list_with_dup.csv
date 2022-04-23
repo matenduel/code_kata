@@ -1,0 +1,32 @@
+shop_id,goods_no,goods_nm,customer_name,order_date,price
+163,183058,Prada Coat,Mike,2021-12-26,674900
+104,183028,Gucci Accessory,Stark,2022-01-15,102870
+181,183003,Gucci Necklace,Mike,2022-01-07,576900
+136,183039,Ferragamo Necklace,Burry,2022-01-08,683100
+126,183005,Thom Browne Necklace,jane,2022-01-04,724140
+146,183042,Thom Browne T-Shirts,Stark,2021-12-29,708960
+24,183038,Ferragamo Pants,Alex,2022-01-06,864780
+154,183012,Bottega Veneta Shirts,Burry,2022-01-04,599860
+47,183052,Thom Browne T-Shirts,Stark,2021-12-26,321080
+163,183010,Prada Necklace,Tony,2022-01-09,792990
+126,183005,Thom Browne Necklace,jane,2022-01-04,724140
+62,183017,Prada Coat,Mike,2021-12-28,625820
+51,183054,Prada T-Shirts,jane,2022-01-04,566100
+104,183024,Gucci T-Shirts,Tony,2021-12-26,420640
+104,183024,Gucci T-Shirts,jane,2022-01-02,425420
+52,183034,Thom Browne Shirts,Alex,2022-01-15,615700
+86,183025,Bottega Veneta Pants,Stark,2021-12-28,785680
+52,183034,Thom Browne Shirts,Mike,2022-01-09,563300
+12,183016,Bottega Veneta Shirts,Stark,2021-12-29,477960
+37,183001,Thom Browne Pants,jane,2021-12-30,375830
+62,183017,Prada Coat,Mike,2021-12-28,625820
+17,183035,Ferragamo Pants,Alex,2022-01-05,928720
+6,183051,Bottega Veneta Pants,Burry,2022-01-15,280000
+104,183024,Gucci T-Shirts,jane,2021-12-30,401520
+85,183018,Thom Browne Shirts,jane,2022-01-01,749430
+154,183012,Bottega Veneta Shirts,Tony,2022-01-05,579640
+6,183051,Bottega Veneta Pants,Burry,2022-01-06,332500
+190,183023,Thom Browne Shirts,jane,2021-12-31,829010
+154,183012,Bottega Veneta Shirts,Burry,2022-01-04,599860
+85,183018,Thom Browne Shirts,jane,2022-01-01,749430
+126,183005,Thom Browne Necklace,jane,2022-01-04,724140
